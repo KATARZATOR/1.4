@@ -8,11 +8,11 @@
     font-family: "TTLakes-Medium";
     font-weight: 500;
     font-style: normal;
-    src: url('/assets/fonts/TTLakes-Medium.woff') format("woff");
+    src: url('../assets/fonts/TTLakes-Medium.woff') format("woff");
   }
   @font-face {
     font-family: "TTLakes-Bold";
     font-weight: 700;
     font-style: normal;
-    src: url('/assets/fonts/TTLakes-Bold.woff') format("woff");
+    src: url('../assets/fonts/TTLakes-Bold.woff') format("woff");
   }
