@@ -10,8 +10,9 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    font-family: "TTLakes-Regular";;
+body{
+    font-family: "TTLakes-Regular";
+    background-color: #F8F8F8;
 }
 
 .header {
@@ -91,6 +92,7 @@ body {
     border: 1px solid #B8FFEC;
     background-color: #B8FFEC;
     color: #FFFFFF;
+    cursor: pointer
 }
 
 .article {
@@ -107,6 +109,7 @@ body {
     font-family: "TTLakes-Medium";
     display: flex;
     align-items: center;
+    cursor: pointer
 }
 
 .readMore__text {
@@ -126,7 +129,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 320px;
-    background-color: #F8F8F8;
     margin-bottom: 16px;
 }
 /*320px*/
@@ -134,7 +136,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 320px;
+    width: 320px;
         height: 88px;
     }
     .logo-container{
@@ -154,6 +156,21 @@ body {
         display: flex;
         align-items: center;
     }
+@media(min-width:320px){
+    .main {
+        display: flex;
+        flex-direction: column;
+        min-width: 320px;
+        margin-bottom: 16px;
+    }
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 320px;
+        height: 88px;
+    }
+}
 /*768px */
 @media (min-width: 768px) {
     .header__container{
