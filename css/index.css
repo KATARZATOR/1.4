@@ -1,5 +1,5 @@
 @import 'normalize.css';
-@import './fonts.css';
+@import '/assets/fonts/fonts.css';
 /* Общие стили */
 html {
     box-sizing: border-box;
