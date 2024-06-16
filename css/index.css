@@ -441,7 +441,7 @@ align-content: stretch;
     display: none;
   }
   .first-child::before{
-    content: url(/assets/images/highlight.svg);
+    content: url(./assets/images/highlight.svg);
     display: flex;
     align-self: center;
     position: absolute;
