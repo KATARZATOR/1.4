@@ -13,13 +13,64 @@
     <link rel="mask-icon" href="/assets/logo_cps__favicon/mstile-150x150.png" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#ffffff">
+
 </head>
 <body class="center">
     <header class="header">
         <div class="container header__container">
         <div class="logo-container">
             <div class="menu-container">
-                <nav class="side-menu"><img src="./assets/images/side-menu.svg"></nav>  
+                <nav class="side-menu">
+                    <input id="toggle" type="checkbox" style="display: none">
+                    <label class="menu-btn" for="toggle">
+                        <img src="./assets/images/side-menu.svg">
+                        
+                    </label>
+                    <div class="wrap toggle">
+                        <div class="toggle-menu" id="toggle">
+                        <div class="toggle-menu__header">
+
+                            <div class="toggle-menu__logo">
+                                <label for="toggle">
+                                    <img src="/assets/images/cross.svg" class="dec" >
+                                </label>
+
+                                <img src="/assets/images/logo_cps.svg"></div>
+                            <div class="toggle-menu__search"><img src="/assets/images/search.svg" class="dec"></div>
+                        </div>
+                        <div class="toggle-menu__main">
+                        <div class="toggle-menu__list">
+                            <ul class="list1">
+                               <div class="first-child"><img src="/assets/images/highlight.svg" height="32px" class="highlight1"><li class="menu-item"><div class="menu-item__text dec">Ремонт техники</div></li></div>
+                                <li class="menu-item"><div class="menu-item__text dec">Услуги и сервисы</div</li>
+                                <li class="menu-item"><div class="menu-item__text dec">Корпоративным клиентам</div></li>
+                                <li class="menu-item"><div class="menu-item__text dec">Продавцам техники</div></li>
+                                <li class="menu-item"><div class="menu-item__text dec">Партнерам</div></li>
+                                <li class="menu-item"><div class="menu-item__text dec">Производителям</div></li>
+                                <li class="menu-item"><div class="menu-item__text dec">Наши сервисные центры</div></li>
+                                <li class="menu-item"><div class="menu-item__text dec">Контакты</div></li>
+                            </ul>
+                        </div>
+                        <div class="toggle-menu__footer-container">
+                            <footer class="toggle-menu__footer">
+                                <div class="toggle-menu__footer-icons">
+                                    <img src="/assets/images/phone.svg" class="dec">
+                                    <img src="/assets/images/chat.svg" class="dec">
+                                    <img src="/assets/images/profile.svg" class="dec">
+                                </div>
+                                <div class="footer-mail">mail@spc.com</div>
+                                <div class="footer-phone">8 800 890 9800</div>
+                                <div class="footer-lang dec">
+                                        <div class="lang">RU</div>
+                                        <div class="lang">EN</div>
+                                        <div class="lang">CH</div>
+                                </div>
+                        </div> 
+                        </div>
+                            </footer>
+                        </div>
+                    </div>
+                </nav>  
             </div>
             <div class="divider1 hidden"><img src="./assets/images/divider.svg"></div>
             <svg id="menu-container_logo" width="98" height="52" viewBox="0 0 98 52" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,8 +128,41 @@
         <img src="./assets/images/Picture Copy.png" class="CPS-img">
     </div>
     </main>
-    <footer>
+<!-- <div class="wrap toggle">
+    <div class="toggle-menu" id="toggle">
+    <div class="toggle-menu__header">
+        <div class="toggle-menu__logo"><img src="/assets/images/side-menu.svg"><img src="/assets/images/logo_cps.svg"></div>
+        <div class="toggle-menu__search"><img src="/assets/images/search.svg"></div>
+    </div>
+    <div class="toggle-menu__list">
+        <ul class="list1">
+           <div class="first-child"><img src="/assets/images/highlight.svg"><li class="menu-item"><div class="menu-item__text">Ремонт техники</div></li></div>
+            <li class="menu-item"><div class="menu-item__text">Услуги и сервисы</div</li>
+            <li class="menu-item"><div class="menu-item__text">Корпоративным клиентам</div></li>
+            <li class="menu-item"><div class="menu-item__text">Продавцам техники</div></li>
+            <li class="menu-item"><div class="menu-item__text">Партнерам</div></li>
+            <li class="menu-item"><div class="menu-item__text">Производителям</div></li>
+            <li class="menu-item"><div class="menu-item__text">Наши сервисные центры</div></li>
+            <li class="menu-item"><div class="menu-item__text">Контакты</div></li>
+        </ul>
+    </div>
+        <footer class="toggle-menu__footer">
+            <div class="toggle-menu__footer-icons">
+                <img src="/assets/images/phone.svg">
+                <img src="/assets/images/chat.svg">
+                <img src="/assets/images/profile.svg">
+            </div>
+            <div class="footer-mail">mail@spc.com</div>
+            <div class="footer-phone">8 800 890 9800</div>
+            <div class="footer-lang">
+                    <div class="lang">RU</div>
+                    <div class="lang">EN</div>
+                    <div class="lang">CH</div>
+            </div>
+            
+        </footer>
+    </div>
+</div> -->
 
-    </footer>
 </body>
 </html> 
