@@ -328,9 +328,11 @@ justify-content: flex-start;
 width: 320px;
 background-color:#FFFFFF;
 height: 100%;
-
+overflow-y:auto ;
 }
-
+.toggle-menu::-webkit-scrollbar {
+    display: none;
+}
 .toggle-menu__header{
 display: flex;
 justify-content:space-between;
@@ -441,10 +443,14 @@ align-content: stretch;
     display: none;
   }
   .first-child::before{
-    content: url(./assets/images/highlight.svg);
+    content:'';
     display: flex;
     align-self: center;
-    position: absolute;
-    top:78px;
+
+    transform:translateY(-15px);
     height: 32px;
+    width: 4px;
+    background: #41F6D7;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
   }
